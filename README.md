@@ -13,7 +13,7 @@
 [![][mit-badge]][mit]
 
 ## Usage
-> Check out the [documentation](PLUGIN_DOCUMENTATION) to see the available options.
+> Check out the [documentation](https://github.com/morishitter/cssfmt) to see the available options.
 
 ### Install
 
@@ -25,7 +25,10 @@ npm install -D fly-cssfmt
 
 ```js
 export default function* () {
-  yield ...
+  yield this
+    .source('src/*.css')
+    .cssfmt()
+    .target('dist')
 }
 ```
 
