@@ -4,10 +4,7 @@
 </a>
 </div>
 
-## Changelog
 
- * 0.0.0
+## v0.1.0
 
-### v0.0.0
-
- * fly-cssfmt initial commit.
+ * Initial release
