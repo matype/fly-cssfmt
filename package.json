@@ -28,7 +28,7 @@
     "url": "http://github.com/morishitter"
   },
   "dependencies": {
-    "cssfmt": "^0.4.0"
+    "cssfmt": "^0.6.0"
   },
   "devDependencies": {
     "fly-util": "^4.0.1",
