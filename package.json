@@ -1,6 +1,6 @@
 {
   "name": "fly-cssfmt",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Fly plugin for CSSfmt.",
   "license": "MIT",
   "repository": "https://github.com/morishitter/fly-cssfmt",
@@ -28,7 +28,7 @@
     "url": "http://github.com/morishitter"
   },
   "dependencies": {
-    "cssfmt": "^1.0.0"
+    "cssfmt": "^0.8.5"
   },
   "devDependencies": {
     "fly-util": "^4.0.1",

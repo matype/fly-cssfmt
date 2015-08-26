@@ -1,7 +1,7 @@
 export default function () {
-  this.filter("cssfmt", (source) => {
+  this.filter("cssfmt", (data) => {
     try {
-      return require("cssfmt").process(source)
+      return require("cssfmt").process(data.toString())
      } catch (e) { throw e }
   })
 }
